@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pdf-to-readable"
+version = "0.1.0"
+description = ""
+authors = ["Matt Main_PC <matmigg0804@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyside6 = "^6.7.2"
+pillow = "^10.4.0"
+pytesseract = "^0.3.10"
+fitz = "^0.0.1.dev2"
+pymupdf = "^1.24.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
